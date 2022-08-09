@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Signal on Mouse Function</title>
+    <link href="style.css" rel="stylesheet" >
+  </head>
+  <body>
+    <div id="grid-parent">
+        <div id="container">
+            <div id="light-container">
+                <div id="redlight" class="lights" onMouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='grey';"></div>
+                <div id="yellowlight" class="lights" onMouseover="this.style.backgroundColor='yellow';" onmouseout="this.style.backgroundColor='grey';"></div>
+                <div id="greenlight" class="lights" onMouseover="this.style.backgroundColor='green';" onmouseout="this.style.backgroundColor='grey';"></div>
+            </div>
+            <div id="stand">
+    
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+    <script>
+        alert("hover your mouse on traffic lights to see the property in action.")
+    </script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/road-night-view-city-skyline-conceptual-vector-illustration-flat-design-web-sites-infographic-design-63240637.jpg");
+   background-size: cover;
+   background-repeat: repeat;
+   background-position: center;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.4;
+   color: #f3f3f3;
+   margin: 0;
+   height: 100vh;
+}
+#grid-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#container,#light-container{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 100vh;
+}
+#light-container{
+    width: 80px;
+    height: 240px;
+    background-color: black;
+    padding: 8px 10px;
+    margin: 5px auto;
+    position: absolute;
+    top: 100px;
+    border-radius: 8px;
+}
+.lights{
+    background-color: grey;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+#stand{
+    height: 240px;
+    width: 20px;
+    background-color: black;
+}
